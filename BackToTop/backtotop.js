@@ -27,6 +27,7 @@ window.addEventListener( "scroll", function ( event ) {
 });
 
 // Add click event listener
+/*
 btt.addEventListener( "click", function ( event ) {
   event.preventDefault();
 
@@ -35,4 +36,6 @@ btt.addEventListener( "click", function ( event ) {
   } else {
     body.scrollTop = 0;
   }
+
 });
+*/
