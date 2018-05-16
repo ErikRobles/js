@@ -18,3 +18,5 @@ document.write('<h3 style="display: inline;">mom = </h3> ' + isPalendrome('mom')
 
 console.log('moon = ' + isPalendrome('moon'));
 document.write('<h3 style="display: inline;">moon = </h3> ' + isPalendrome('moon') + '<br>');
+
+document.write('<h4>End of file</h4>')
