@@ -3,7 +3,7 @@ const titleCase = (str) => {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
     });
 }
-
+document.write('<h3>Capitalize First Letter Script</h3> <br><br>');
 console.log(titleCase('this is a fine wine'));
 document.write(titleCase('this is a fine wine') + ' <br>');
 
