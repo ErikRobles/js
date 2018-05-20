@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project Calc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="outerShell">
+    <div class="innerShell">
+      <div id="outputWindow" class="outputWindow">
+        <h3 id="result"></h3>
+      </div>
+      <!--Start of Square Foot Calculator-->
+      <div class="squareFoot">
+        <h1 class="calcHead">Square footage Calculator</h1>
+      <form  id="squareFootCalc" name="sqft" action="">
+        <label class="labels" for="length">Enter length:</label>
+        <input id="length" class="firstInput" type="number" placeholder="Length">
+        <label class="labels" for="width">Enter width:</label>
+        <input id="width" class="secondInput" type="number" placeholder="Width">
+        <input  id="calculate" class="calculate" type="button" value="Calculate">
+      </form> 
+      </div><!--end of squareFoot div-->
+
+      <!--Start of Cubic Feet Calculator-->
+      <div class="cubicFoot">
+          <h1 class="calcHead">Cubic footage Calculator</h1>
+        <form  id="cubicFootCalc" name="cbft" action="">
+          <label class="labels" for="cubicN1">Enter measurement 1:</label>
+          <input id="cubicN1" class="cubicN1" type="number" placeholder="1st Num">
+          <label class="labels" for="cubicN2">Enter 2nd number:</label>
+          <input id="cubicN2" class="cubicN2" type="number" placeholder="2nd Num"><br><br>
+          <label class="labels" for="height">Enter Height:</label>
+          <input id="height" class="height" type="number" placeholder="Height">
+          <input  id="calculateCube" class="calculate" type="button" value="Calculate">
+        </form> 
+        </div><!--end of Cubic Feet div-->
+    </div>
+  </div>
+  <script src="projcalc.js"></script>
+</body>
+</html>
