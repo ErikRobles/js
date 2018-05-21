@@ -4,8 +4,8 @@
 }
 
 body {
-  margin: 0 auto;
-  background: #f4f4f4;
+  margin: 15px; auto;
+  background: #A9A9A9;
 }
 
 .outerShell {
@@ -30,6 +30,7 @@ body {
   padding: 15px;
   margin-bottom: 30px;
   width: 95%;
+  height: 35px;
   text-align: center;
 }
 
@@ -38,6 +39,10 @@ h1 {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+}
+
+h1.mainHeading {
+  font-size: 38px;
 }
 
 .squareFoot {
