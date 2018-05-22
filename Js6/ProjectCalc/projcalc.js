@@ -29,3 +29,17 @@ function cube(cubicN1, cubicN2, height) {
 calcCubeButton.addEventListener('click', function() {
   cube(cubicN1, cubicN2, height);
 });
+
+// Decimal to Inch Calculator
+
+const calcDecButton = document.getElementById('calculateDec');
+let decimal = document.getElementById('dec');
+
+function decimalToInch(dec) {
+  let decimalToInch = decimal.value * 12;
+  document.getElementById('result2').innerHTML = Math.round(decimalToInch) + " inch(s)";
+}
+
+calcDecButton.addEventListener('click', function() {
+  decimalToInch(dec);
+});

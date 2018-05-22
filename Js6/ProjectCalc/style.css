@@ -24,7 +24,7 @@ body {
   margin-right: auto;
 }
 
-.outputWindow {
+.outputWindow, .outputWindow2 {
   background: #ccc;
   padding: 15px;
   margin-bottom: 30px;
@@ -49,6 +49,10 @@ h1.mainHeading {
 }
 
 .cubicFoot {
+  border: 1px solid #ccc;
+}
+
+.decToInch {
   border: 1px solid #ccc;
 }
 
@@ -83,6 +87,10 @@ input.height {
   width: 100px;
 }
 
+input.dec {
+  width: 125px;
+}
+
 .calculate {
   width: 100px;
   margin: auto;
@@ -91,3 +99,8 @@ input.height {
   text-align: center;
 }
 
+p.disclaimer {
+  font-size: 14px;
+  color: #fff;
+  padding-bottom: 8px;
+}
