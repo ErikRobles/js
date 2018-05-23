@@ -56,6 +56,10 @@ h1.mainHeading {
   border: 1px solid #ccc;
 }
 
+.inchToDec {
+  border: 1px solid #ccc;
+}
+
 .labels {
   padding: 10px 0;
   margin-bottom: 15px;

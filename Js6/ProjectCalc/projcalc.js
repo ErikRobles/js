@@ -43,3 +43,21 @@ function decimalToInch(dec) {
 calcDecButton.addEventListener('click', function() {
   decimalToInch(dec);
 });
+
+
+// Inch To Decimal Calculator
+
+const calcIncButton = document.getElementById('calculateInc');
+let inches = document.getElementById('inc');
+
+function inchToDecimal(inc) {
+  let inchToDecimal = inches.value / 12;
+  document.getElementById('result2').innerHTML = inchToDecimal.toFixed(3) + " inch(s)";
+  if (inches.value == 12) {
+    document.getElementById('result2').innerHTML = "1 Foot or 1.000 inches."
+  }
+}
+
+calcIncButton.addEventListener('click', function() {
+  inchToDecimal(inc);
+});
