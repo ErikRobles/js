@@ -1,0 +1,16 @@
+body {
+  background: black;
+}
+circle {
+  stroke: white;
+}
+rect {
+  stroke: white;
+}
+path {
+  stroke: white;
+}
+.diam {
+  fill: white;
+  font-family: 'Open Sans', sans-serif;
+}
